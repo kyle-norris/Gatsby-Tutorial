@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Layout>
         <h1>Hello from Gatsby!</h1>
-        <ExampleButton>Click Me</ExampleButton>
+        <ExampleButton>Click</ExampleButton>
       </Layout>
     </>
   );
