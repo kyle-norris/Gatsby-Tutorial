@@ -7,4 +7,10 @@
 module.exports = {
   /* Your site config here */
   plugins: [`gatsby-plugin-styled-components`],
+  siteMetadata: {
+    title: "Kyle's Portfolio",
+    author: "Kyle Norris",
+    description: "",
+  }
 }
+
