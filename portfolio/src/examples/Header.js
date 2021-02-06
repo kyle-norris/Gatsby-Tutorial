@@ -23,7 +23,7 @@ const Header = () => {
     site: {
       info: {
         title,
-        person: { age, name },
+        person: { name },
       },
     },
   } = useStaticQuery(getData);
