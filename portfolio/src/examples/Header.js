@@ -3,19 +3,19 @@ import { useStaticQuery, graphql } from "gatsby";
 
 const getData = graphql`
 {
-  site {
-    info: siteMetadata {
-      person {
-        age
-        name
+    site {
+      info: siteMetadata {
+        person {
+          age
+          name
+        }
+        author
+        data
+        description
+        title
       }
-      author
-      data
-      description
-      title
     }
   }
-}
 `;
 
 const Header = () => {
@@ -27,6 +27,7 @@ const Header = () => {
       },
     },
   } = useStaticQuery(getData);
+
   return (
     <div>
       <h1>title : {title}</h1>
