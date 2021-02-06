@@ -1,6 +1,5 @@
-# portfolio
+# Gatsby Tutorial
 
-Currently following a tutorial on setting up a project with Gatsby.
-Left off here:
-https://youtu.be/5Mam9NuxwQc?t=14671
-(4:04:31 - Products Query)
+This project follows the *excellent* tutorial by Coding Addict here: https://youtu.be/5Mam9NuxwQc
+
+He goes over everything from setting up the project to GraphQL queries, to gatsby-image, and much more. I can't recommend this tutorial enough. I learned a ton of useful information.
